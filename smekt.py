@@ -118,7 +118,12 @@ bijvoegelijkeNaamwoorden = [
     "blauwe",
     "rode",
     "ingewikkelde",
-    "destructieve"
+    "destructieve",
+    "talrijke",
+    "explosieve",
+    "geladen",
+    "ontladen",
+    "gewichtige"
 ]
 
 # Mannelijk of meervoud

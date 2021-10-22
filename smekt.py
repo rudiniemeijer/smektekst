@@ -161,7 +161,12 @@ zelfstandigeNaamwoorden = [
     "getallen",
     "resultaten",
     "producten",
-    "verpakking"
+    "verpakking",
+    "broncode",
+    "COBOL code",
+    "Flask module",
+    "Cucumber testen",
+    "berekeningen"
 ]
 
 def smekTekst(opbouw):

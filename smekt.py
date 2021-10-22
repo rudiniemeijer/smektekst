@@ -48,7 +48,9 @@ opbouwWerkwoorden = [
     "Aanbreng",
     "Opsmukk",
     "Verenig",
-    "Programmer"
+    "Programmer",
+    "Legaliser",
+    "Certificer"
 ]
 
 afbouwWerkwoorden = [
@@ -80,7 +82,8 @@ afbouwWerkwoorden = [
     "Uitsmer",
     "Vernietig",
     "Neerhal",
-    "Inschuiv"
+    "Inschuiv",
+    "Aanhoud"
 ]
 
 versterkingsNaamwoorden = [
@@ -171,7 +174,10 @@ zelfstandigeNaamwoorden = [
     "COBOL code",
     "Flask module",
     "Cucumber testen",
-    "berekeningen"
+    "berekeningen",
+    "certificaten",
+    "illegalen",
+    "neanderthaler"
 ]
 
 def smekTekst(opbouw):

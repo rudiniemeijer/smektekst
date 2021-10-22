@@ -33,7 +33,7 @@ opbouwWerkwoorden = [
     "Solder",
     "Opwaarder",
     "Verlegg",
-    "Beprikk",
+    "Betast",
     "Afdrukk",
     "Inklapp",
     "Instell",
@@ -45,16 +45,17 @@ opbouwWerkwoorden = [
     "Ophog",
     "Vermenigvuldig",
     "Installer",
-    "Aanbreng"
+    "Aanbreng",
+    "Opsmukk"
 ]
 
 afbouwWerkwoorden = [
     "Afschroev",
     "Comprimer",
-    "Schur",
+    "Afschal",
     "Evaluer",
     "Demonter",
-    "Afzijk",
+    "Bekritier",
     "Desolder",
     "Afpell",
     "Demp",
@@ -64,8 +65,8 @@ afbouwWerkwoorden = [
     "Ontkoppel",
     "Verwijder",
     "Afbrek",
-    "Afragg",
-    "Doorknipp",
+    "Vertrag",
+    "Doorsnijd",
     "Leegmak",
     "Opschon",
     "Verbuig",
@@ -73,7 +74,8 @@ afbouwWerkwoorden = [
 
     "Demagnetiser",
     "Deinstaller",
-    "Ontmoedig"
+    "Ontmoedig",
+    "Uitsmer"
 ]
 
 versterkingsNaamwoorden = [
@@ -83,7 +85,7 @@ versterkingsNaamwoorden = [
     "Grondig",
     "Egaal",
     "Afrondend",
-    "Opvallend"
+    "Aanzienlijk"
 ]
 
 bijvoegelijkeNaamwoorden = [
@@ -152,10 +154,14 @@ zelfstandigeNaamwoorden = [
     "fouten",
     "witte rook",
     "software",
-    "magneten",
-    "geleiders",
+    "magneet",
+    "geleider",
     "condensatoren",
-    "kijkers"
+    "kijker",
+    "getallen",
+    "resultaten",
+    "producten",
+    "verpakking"
 ]
 
 def smekTekst(opbouw):

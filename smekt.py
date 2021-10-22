@@ -21,7 +21,7 @@ opbouwWerkwoorden = [
     "Lad",
     "Aflebber",
     "Oppoets",
-    "Informer",
+    "Versnell",
     "Fork",
     "Push",
     "Compiler",
@@ -46,7 +46,9 @@ opbouwWerkwoorden = [
     "Vermenigvuldig",
     "Installer",
     "Aanbreng",
-    "Opsmukk"
+    "Opsmukk",
+    "Verenig",
+    "Programmer"
 ]
 
 afbouwWerkwoorden = [
@@ -66,7 +68,7 @@ afbouwWerkwoorden = [
     "Verwijder",
     "Afbrek",
     "Vertrag",
-    "Doorsnijd",
+    "Versnijd",
     "Leegmak",
     "Opschon",
     "Verbuig",
@@ -75,7 +77,10 @@ afbouwWerkwoorden = [
     "Demagnetiser",
     "Deinstaller",
     "Ontmoedig",
-    "Uitsmer"
+    "Uitsmer",
+    "Vernietig",
+    "Neerhal",
+    "Inschuiv"
 ]
 
 versterkingsNaamwoorden = [

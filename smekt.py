@@ -9,7 +9,7 @@ from time import sleep
 opbouwWerkwoorden = [
     "Instell",
     "Open",
-    "Insmer",
+    "Verdel",
     "Vastschroev",
     "Aanpass",
     "Configurer",
@@ -30,7 +30,7 @@ opbouwWerkwoorden = [
     "Inplugg",
     
     "Verbind",
-    "Solder",
+    "Vastsolder",
     "Opwaarder",
     "Verlegg",
     "Betast",
@@ -48,9 +48,16 @@ opbouwWerkwoorden = [
     "Aanbreng",
     "Opsmukk",
     "Verenig",
-    "Programmer",
+    "Compileren en link",
     "Legaliser",
-    "Certificer"
+
+    "Certificer",
+    "Identificer",
+    "Oplad",
+    "Vectoriser",
+    "Parametriser",
+    "Extern inbell",
+    "Transmuter"
 ]
 
 afbouwWerkwoorden = [
@@ -59,13 +66,13 @@ afbouwWerkwoorden = [
     "Afschal",
     "Evaluer",
     "Demonter",
-    "Bekritier",
+    "Bekritiser",
     "Desolder",
     "Afpell",
     "Demp",
     "Dichtmak",
 
-    "Sluit",
+    "Afsluit",
     "Ontkoppel",
     "Verwijder",
     "Afbrek",
@@ -83,17 +90,31 @@ afbouwWerkwoorden = [
     "Vernietig",
     "Neerhal",
     "Inschuiv",
-    "Aanhoud"
+    "Aanhoud",
+    "Uitholl",
+    "Degrader",
+
+    "Ontlad",
+    "Oploss"
 ]
 
 versterkingsNaamwoorden = [
     "Versneld",
-    "Volledig",
+    "Vertraagd",
     "Transparant",
-    "Grondig",
-    "Egaal",
+    "Fundamenteel",
+    "Gelijkmatig",
     "Afrondend",
-    "Aanzienlijk"
+    "Structureel",
+    "Nauwkeurig",
+    "Efficiënt",
+    "Effectief",
+
+    "Serieel",
+    "Parallel",
+    "Random",
+    "Geluidloos",
+    "Pontificaal"
 ]
 
 bijvoegelijkeNaamwoorden = [
@@ -107,9 +128,10 @@ bijvoegelijkeNaamwoorden = [
     "hyperactieve",
     "snelle",
     "energiezuinige",
+
     "supergeleidende",
     "weerbarstige",
-    "mini",
+    "miniatuur",
     "micro",
     "voordelige",
     "bidirectionele",
@@ -117,6 +139,7 @@ bijvoegelijkeNaamwoorden = [
     "groene",
     "blauwe",
     "rode",
+
     "ingewikkelde",
     "destructieve",
     "talrijke",
@@ -138,6 +161,7 @@ zelfstandigeNaamwoorden = [
     "processor",
     "microcontroller",
     "transistoren",
+
     "bits",
     "kolommen",
     "menu opties",
@@ -148,8 +172,9 @@ zelfstandigeNaamwoorden = [
     "toetsen",
     "behuizing",
     "diodes",
+
     "weerstandsarray",
-    "douchehokje",
+    "douchehokjes",
     "lijnbus",
     "spreadsheet",
     "documenten",
@@ -158,6 +183,7 @@ zelfstandigeNaamwoorden = [
     "voltage",
     "kernwaarde",
     "chips",
+
     "signalen",
     "sensoren",
     "warp drive",
@@ -168,6 +194,7 @@ zelfstandigeNaamwoorden = [
     "witte rook",
     "software",
     "magneet",
+
     "geleider",
     "condensatoren",
     "kijker",
@@ -178,11 +205,17 @@ zelfstandigeNaamwoorden = [
     "broncode",
     "COBOL code",
     "Flask module",
+
     "Cucumber testen",
     "berekeningen",
     "certificaten",
     "illegalen",
-    "neanderthaler"
+    "neanderthalers",
+    "Spark",
+    "ledverlichting",
+    "spookverlichting",
+    "stroomsterkte"
+    ""
 ]
 
 def smekTekst(opbouw):

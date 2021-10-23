@@ -8,7 +8,9 @@ while True:
     smekRegel = smekTekst(opbouw)
 
     if not opbouw:
-        smekRegel = "* " + smekRegel
+        smekRegel = "- " + smekRegel
+    else:
+        smekRegel = "+ " + smekRegel
 
     print(smekRegel)
     sleep(1)
